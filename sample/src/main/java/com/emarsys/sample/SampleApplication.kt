@@ -20,7 +20,7 @@ open class SampleApplication : Application(), EventHandler, NotificationInformat
         super.onCreate()
         val config = EmarsysConfig.Builder()
                 .application(this)
-                .mobileEngageApplicationCode("EMS11-C3FD3")
+                .mobileEngageApplicationCode("EMS35-F0746")
                 .contactFieldId(2575)
                 .predictMerchantId("1428C8EE286EC34B")
                 .build()
